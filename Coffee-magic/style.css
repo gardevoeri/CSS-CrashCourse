@@ -1,40 +1,53 @@
-body{
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size:1rem;
-    color:rgb(31, 31, 37);
-    background-color: burlywood;
 
-    display: flex;
-    flex-direction: column;
-    padding: 1em;
-    align-items: center;
-    align-content: center;
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:1rem;
+    color:rgb(21, 21, 27);
+    line-height: 1.5;
+    margin: 0 auto;
+    width: 80vw;
+
+
 }
 
 .topo{
-    background-color: rgb(128, 218, 221);
-    padding: 25px;
-    display: grid;
-    grid-template-rows: 60% 40%;
+    background: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
+
+ 
 }
 
 header{
-    background-color: seagreen;
+    background: red;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+
+}
+
+h2{
+    font-weight: 700;
+    font-size: 1.8rem;
 }
 
 .titulo{
-     background-color: brown;
-     max-width: 60%;
+    
+     
+}
+
+img{
+    width: 400px;
 }
 
 .img-titulo{
-    background-color: slategrey;
-    max-width: 80%;
-    max-height: 80%;
+
+    
 }
 .corpo{
-    background-color: crimson;
+    background-color: rgb(134, 43, 61);
     padding: 25px;
 }
 
