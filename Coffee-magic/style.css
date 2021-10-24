@@ -1,0 +1,45 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size:1rem;
+    color:rgb(31, 31, 37);
+    background-color: burlywood;
+
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    align-items: center;
+    align-content: center;
+}
+
+.topo{
+    background-color: rgb(128, 218, 221);
+    padding: 25px;
+    
+}
+
+header{
+    background-color: seagreen;
+}
+
+.titulo{
+     font-size: 2rem;
+     font-weight: bolder;
+}
+
+.img-titulo{
+    background-color: slategrey;
+    max-width: 400px;
+    max-height: 400px;
+}
+
+main{
+    background-color: steelblue;
+}
+
+.img-coluna{
+        max-height: 400px;
+}
+
+.rodape{
+    background-color: tomato;
+}
