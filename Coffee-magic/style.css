@@ -14,6 +14,8 @@ body{
 .topo{
     background-color: rgb(128, 218, 221);
     padding: 25px;
+    display: grid;
+    grid-template-rows: 60% 40%;
     
 }
 
@@ -22,14 +24,18 @@ header{
 }
 
 .titulo{
-     font-size: 2rem;
-     font-weight: bolder;
+     background-color: brown;
+     max-width: 60%;
 }
 
 .img-titulo{
     background-color: slategrey;
-    max-width: 400px;
-    max-height: 400px;
+    max-width: 80%;
+    max-height: 80%;
+}
+.corpo{
+    background-color: crimson;
+    padding: 25px;
 }
 
 main{
