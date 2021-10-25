@@ -1,12 +1,14 @@
+/* global declarations  */
+
 
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size:1rem;
+    font-size: 1.25rem;
     color:rgb(21, 21, 27);
     line-height: 1.5;
     margin: 0 auto;
     min-width: 60vw;
-    max-width: 80vw;
+    max-width: 70vw;
     
 }
 
@@ -15,6 +17,17 @@ h2{
     font-size: 2rem;
 }
 
+a{
+    text-decoration: none;
+    color: rgb(43, 43, 73);
+}
+
+a:hover{
+    text-decoration: underline;
+    color: rgb(82, 70, 4);
+}
+
+/*  top declarations  */
 
 
 .topo{
@@ -41,9 +54,9 @@ header{
 }
 
 .img-titulo{
-    box-sizing: border-box;
-    width:100%;
     background: red;
+    box-sizing: border-box;
+    width:100%; 
     padding: 25px;
 
 }
@@ -54,20 +67,69 @@ img{
 
 }
 
+/* body and main declarations  */
+
+
 
 .corpo{
     background-color: rgb(134, 43, 61);
     padding: 25px;
+
 }
 
-main{
-    background-color: steelblue;
+.bloco1{
+    background: cornflowerblue;
+    padding: 10px 150px; 
+    text-align: center;
+    font-size: 1rem;
+
+}
+
+ h3{
+    text-transform: uppercase;
+    font-weight: bold;
+    
+
+}
+
+.bloco2{
+    background: darkgoldenrod;
+    display: flex;
+    font-size: 1.25rem;
+    padding: 20px;
+    gap: 10px;
+    
+
 }
 
 .img-coluna{
-        max-height: 400px;
+    box-sizing: border-box;
+    width:100%; 
+    padding: 25px;
+
 }
+
+
+
+/*  footer declarations  */
+
 
 .rodape{
     background-color: tomato;
+    text-align: center;
+    padding: 20px;
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
